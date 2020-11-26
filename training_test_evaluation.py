@@ -1,3 +1,22 @@
+#Evaluation of the training process
+#Creating visual representation of training accuracy and loss
+#Summarize history for accuracy
+plt.plot(history.history['accuracy'], color = '#a3281f')
+plt.plot(history.history['val_accuracy'], color = '#1613a1')
+plt.title('model accuracy')
+plt.ylabel('accuracy')
+plt.xlabel('epoch')
+plt.legend(['train', 'validation'], loc='upper left')
+plt.show()
+# summarize history for loss
+plt.plot(history.history['loss'], color = '#a3281f')
+plt.plot(history.history['val_loss'], color = '#1613a1')
+plt.title('model loss')
+plt.ylabel('loss')
+plt.xlabel('epoch')
+plt.legend(['train', 'validation'], loc='upper left')
+plt.show()
+
 #Predictions
 yhat_probs = model2.predict(test_img, verbose=0)
 # predict crisp classes for test set
