@@ -6,7 +6,7 @@ The model can be run with a Virtual Machine, the following setup is with Google 
 
 1. First you have to upload the dataset from kaggle on Google Drive: https://www.kaggle.com/ciplab/real-and-fake-face-detection
 
-2. Then you have to open the CNN model, from the file ```CNN_full_model.ipynb```, in your virtual machine. 
+2. Then you have to open the CNN model, from the file [CNN_full_model.ipynb](https://github.com/SupervisedGroup4/Project/blob/main/CNN_full_model.ipynb), in your virtual machine. 
 
 3. You need to fetch the dataset from Google Drive to Google Colab. This procedure is presented below. 
 
